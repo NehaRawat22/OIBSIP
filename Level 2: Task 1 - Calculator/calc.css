@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Signika Negative', sans-serif;
+  color: white;
+  transition: all 0.5s ease;
+  background-image: linear-gradient(to bottom right, rgb(77, 147, 163), rgb(124, 62, 172));
+  background-size: contain;
+}
+
+.container {
+  place-items: center;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.calc {
+  position: relative;
+  height: auto;
+  width: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px #000;
+}
+
+#operator, .mul {
+  font-size: 18px;
+  background-color: #ffd0fd;
+  color: #f967f3;
+}
+
+#number {
+  font-size: 18px;
+  background-color: #c3eaff;
+  color: black;
+}
+
+#clear {
+  font-size: 18px;
+  background-color: #ffd5d8;
+  color: #fc4552;
+}
+
+#equal {
+  font-size: 18px;
+  background-color: #adf9ef;
+  color: #000;
+}
+
+.button, .mul {
+  padding: 20px;
+  margin: 0 3px;
+  border-radius: 40px;
+  cursor: pointer;
+  height: 73px;
+  width: 73px;
+}
+
+.button:hover, .mul:hover {
+  transform: scale(1.05);
+}
+
+.rowspan-2 {
+  width: 157px;
+}
+
+.row {
+  margin: 8px 0;
+}
+
+.row input {
+  width: 318px;
+  font-size: 20px;
+  margin: 22px 11px;
+  padding: 10px 2px;
+  border: 1px solid rgb(28, 107, 125);
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 0 30px #000;
+}

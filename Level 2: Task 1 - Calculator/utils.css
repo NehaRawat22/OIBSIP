@@ -1,0 +1,21 @@
+.text-center {
+    margin-bottom: 60px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .mx-auto {
+    margin: auto;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
